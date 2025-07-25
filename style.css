@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    font-family:Roboto;
+    font-family:" Roboto", serif;
 }
 
 body {
@@ -61,25 +61,31 @@ a{
 }
 
 .section1 {
-   
     display: flex;
     background-color: #1F2937;
-    padding: 70px 50px;
+    padding: 70px 20px;
     justify-content: space-around;
     border: 1px solid white;
 
 }   
 
 .content{
-    width:  500px;
+    width:  400px;
     display: flex;
     flex-direction: column;
     color: #F9FAF8;
     align-items: center;
+    
     border: 1px solid white;
+}
+h1 {
+    font-size: 48px;
+    font-weight:900;
 }
 
 img {
-        border: 1px solid white;
+        width:500px;
+        display: flex;
+        align-items: center;
 
 }
