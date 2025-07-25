@@ -92,11 +92,16 @@ a{
 
 .image-scara {
     border:1px solid yellow;
-    width:300px;
-    height:100px;
+    width:500px;
     display: flex;
     flex-wrap: wrap;
     overflow: hidden;
+}
+
+.image-hero {
+     width:500px;
+    height:auto;
+
 }
 .first-signup, .second-signup{
     background-color:#3882F6;
