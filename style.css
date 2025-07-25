@@ -91,7 +91,6 @@ a{
 }
 
 .image-scara {
-    border:1px solid yellow;
     width:500px;
     display: flex;
     flex-wrap: wrap;
@@ -99,7 +98,7 @@ a{
 }
 
 .image-hero {
-     width:500px;
+    width:500px;
     height:auto;
 
 }
@@ -140,13 +139,18 @@ a{
 .card{
     display:flex;
     flex-direction: column;
-    border: 1px solid #3882F6;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
     max-width: 200px;
+    margin:10px;
 
 }
 
 img .card{
     width:100px;
-    height:100px
+    height:100px;
+    flex-wrap: wrap;
+    overflow: hidden;
+
 }
 
