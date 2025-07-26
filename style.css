@@ -173,7 +173,7 @@ img .card{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding:90px 260px;
+    padding:60px 260px;
     align-content:flex-start;
 }
 
@@ -189,10 +189,7 @@ img .card{
 }
 
 .section4 {
-    display: flex;
-    flex-direction: column;
     padding:100px 90px;
-    border:1px solid yellow;
     justify-content: center;
     background-color: white;
     color:#F9FAF8;
@@ -202,28 +199,28 @@ img .card{
     display: flex;
     flex-direction: column;
     border: 1px solid black;
-    border-radius: 1%;
+    border-radius: 10px;
     background-color:  #3882F6;
+    column-gap: 20px;
     
 }
 
-.box-content{
-    display: flex;
-    flex-direction: column;
-    border:1px solid red; 
+.box-content1{
+    background-color: pink;
     justify-content: center;
     width:600px;
     padding:10px 30px;
     font-size: 26px;
-    margin:0;
-    
+    width:800px;
+        align-content: flex-end;
+
 
 }
 
-.second-signup{
-    display: flex;
-    background-color:  #3882F6;
-    border-color:#E5E7EB;
-    flex-direction: column;
-
+.box-content2{
+    background-color: blue;
+    width:300px;
+    margin-right: 10    0px;
 }
+
+
