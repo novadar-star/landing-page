@@ -190,15 +190,13 @@ img .card{
 
 .section4 {
     padding:100px 90px;
-    justify-content: center;
     background-color: white;
     color:#F9FAF8;
 }
 
 .box{
     display: flex;
-    flex-direction: column;
-    border: 1px solid black;
+    flex-direction: space-between;
     border-radius: 10px;
     background-color:  #3882F6;
     column-gap: 20px;
@@ -206,21 +204,22 @@ img .card{
 }
 
 .box-content1{
-    background-color: pink;
-    justify-content: center;
     width:600px;
     padding:10px 30px;
     font-size: 26px;
     width:800px;
-        align-content: flex-end;
 
 
 }
 
 .box-content2{
-    background-color: blue;
-    width:300px;
-    margin-right: 10    0px;
+    display: flex;
+    flex-direction: row;
+    border:1px solid brown;
+
 }
+
+.second-signup
+
 
 
